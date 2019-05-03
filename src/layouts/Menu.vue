@@ -31,7 +31,7 @@
             </q-list>
             <q-list link inset-delimiter class="color-gray item-auto" @click.native="goLista">
                 <q-item style="margin-left:10px; margin-top:12px;">
-                    <q-icon class="icon-menu span-arrow"><img class="icon-car" src="~assets/images/img-traking/car.svg"></q-icon>
+                    <q-icon class="icon-menu "><img class="icon-car" src="~assets/images/img-traking/car.svg"></q-icon>
                     <span class="span-menu">Mi auto</span>
                    <q-icon class="icon-menu span-arrow"><img class="icon-arrow"  src="~assets/images/img-traking/right-arrow.svg"></q-icon>
                 </q-item>

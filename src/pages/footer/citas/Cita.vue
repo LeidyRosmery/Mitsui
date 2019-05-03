@@ -90,8 +90,7 @@
                     <div class="row inline">
                                                     
                      <div class="q-if row no-wrap items-end relative-position q-input shadow-1 radius_xs q-if-hide-underline text-primary">
-                        <div class="q-if-inner col row no-wrap relative-position">
-                           
+                        <div class="q-if-inner col row no-wrap relative-position">                           
                             <input maxlength="7" placeholder="PLACA" v-model="searchPlaca" class="col q-input-target q-no-input-spinner" >
                         </div>
                     </div>
@@ -112,6 +111,9 @@
                             @click="clear_autos_placa"
                             label="Limpiar"
                             />
+                        <div class="q-if-inner col row no-wrap relative-position">                           
+                            <input maxlength="7" v-model="searchPlaca" class="hidden-input col q-input-target q-no-input-spinner" >
+                        </div>
                 </div>
                 
             </div>
