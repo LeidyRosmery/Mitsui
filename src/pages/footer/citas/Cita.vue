@@ -97,7 +97,7 @@
             </div>
 
                     
-                    <q-btn style="margin-top: 30px;margin-top: 30px;border-left-width: 20px;margin-left: 7px;"
+                    <!-- <q-btn style="margin-top: 30px;margin-top: 30px;border-left-width: 20px;margin-left: 7px;"
                             id="id_btn_cerrar"
                             color="primary"
                             @click.native="onpressBuscar"
@@ -110,10 +110,23 @@
                             color="primary"
                             @click="clear_autos_placa"
                             label="Limpiar"
-                            />
-                        <div class="q-if-inner col row no-wrap relative-position">                           
-                            <input maxlength="7" v-model="searchPlaca" class="hidden-input col q-input-target q-no-input-spinner" >
-                        </div>
+                            /> -->
+
+                         <a 
+                            id="id_btn_cerrar"
+                            color="primary"
+                            class="btn-search"
+                            @click="onpressBuscar"
+                            label="Buscar"
+                            >Buscar</a>
+
+                             <a 
+                            id="id_btn_ok"
+                            class="btn-limpiar"
+                            color="primary"
+                            @click="clear_autos_placa"
+                            label="Limpiar"
+                            >Limpiar</a>
                 </div>
                 
             </div>

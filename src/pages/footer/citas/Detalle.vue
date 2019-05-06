@@ -1,10 +1,26 @@
 <template>
+<div>
+
+    <!-- <q-toolbar class="text-primary toolbar-detalle">
+   <div class="icon-circle">
+                        <div class="icon-circle circle-3">
+                            <div class="icon-circle circle-2">
+                                <div class="icon-circle circle-1"></div>
+                            </div>
+                        </div>
+                    </div> 
+      <q-toolbar-title>
+        Toolbar
+      </q-toolbar-title>
+
+    </q-toolbar> -->
+   
     <q-tabs class="pag_listado shadow-2 tabs-menu q-tabs flex no-wrap overflow-hidden q-tabs-position-top q-tabs-normal">
-        <q-tab default slot="title" name="tab-1" icon="icon-main icon-1">Facturado</q-tab>
-        <q-tab slot="title" name="tab-2" icon="icon-main icon-2">Trámite <br> placa / tarjeta</q-tab>
-        <q-tab slot="title" name="tab-3" icon="icon-main icon-3">Programación entrega</q-tab>
-        <q-tab slot="title" name="tab-4" icon="icon-main icon-4">Listo para recojo</q-tab>
-        <q-tab slot="title" name="tab-5" icon="icon-main icon-5">Entregado</q-tab>
+        <q-tab default slot="title" name="tab-1" icon="icon-main icon-1"/>
+        <q-tab slot="title" name="tab-2" icon="icon-main icon-2"/>
+        <q-tab slot="title" name="tab-3" icon="icon-main icon-3"/>
+        <q-tab slot="title" name="tab-4" icon="icon-main icon-4"/>
+        <q-tab slot="title" name="tab-5" icon="icon-main icon-5" />
         <q-tab-pane name="tab-1">
             <q-card inline class="q-ma-sm">
                 <q-card-title>
@@ -32,13 +48,7 @@
                 <q-card-actions>
                     <!-- <q-btn flat>Action 1</q-btn>
                                 <q-btn flat>Action 2</q-btn> -->
-
-                <q-btn flat dense round @click.native="goDetalle" class="btn-detalle">
-                     <!-- <q-icon class="icono"  /> -->
-                      <span class="ver-mas">Ver detalle</span> <i class="icon-ver-mas fas fa-chevron-right"></i>
-                </q-btn>
-
-                   
+                    <span class="ver-mas">Ver detalle</span> <i class="icon-ver-mas fas fa-chevron-right"></i>
                 </q-card-actions>
             </q-card>
           
@@ -74,5 +84,6 @@
         <q-tab-pane name="tab-4">Tab cuatro</q-tab-pane>
         <q-tab-pane name="tab-5">Tab Cinco</q-tab-pane>
     </q-tabs>
+    </div>
 </template>
-<script src="../../../js/lista.js"/>
+<script src="../../../js/detalle.js"/>

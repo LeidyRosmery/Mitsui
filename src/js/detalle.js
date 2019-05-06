@@ -9,14 +9,11 @@ export default {
   },
   methods:
   {
-    goDetalle: function () {
+
+    onActive: function (event) {
+      console.log("holasss");
       this.$router.push({ name: 'detalle' });    
     },
-
-    // onActive: function (event) {
-    //   console.log("holasss");
-    //   this.$router.push({ name: 'detalle' });    
-    // },
   
   },
   created() {

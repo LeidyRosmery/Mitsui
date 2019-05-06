@@ -10,6 +10,7 @@ import contacto from '../pages/footer/Contacto.vue'
 /*citas */
 import taller from '../pages/footer/citas/Taller.vue'
 import lista from '../pages/footer/citas/Lista.vue'
+import detalle from '../pages/footer/citas/Detalle.vue'
 import marca from '../pages/footer/citas/Marca.vue'
 /*Historial */
 import servicios from '../pages/dashboard/Servicios.vue'
@@ -30,11 +31,18 @@ export default[
     name:'login',
     component: login
   },
+  
+         
   {
     path: '/menu', 
     component: menu,
     children: 
     [
+      {
+        path:'/menu/detalle',   
+        name:'detalle', 
+        component: detalle
+      },
        {
         path:'/menu/citas',
         component: citas,
