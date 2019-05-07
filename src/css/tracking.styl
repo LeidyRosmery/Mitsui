@@ -264,7 +264,7 @@ tabs-head:not(.scrollable) .q-tab {
 .tabs-menu .q-tab.active:before {
   content: '';
   background-image: url(../assets/images/white/arrow.svg);
-    background-position: center;
+  background-position: center;
     background-repeat: no-repeat;
     background-size: 61%;
     width: 25px;
@@ -272,8 +272,11 @@ tabs-head:not(.scrollable) .q-tab {
     position: relative;
     left: 50%;
     top: 35px;
+    background-color: #fff;
+    opacity: 1;
     border-radius: 69%;
 }
+
 
 .q-tab.column:nth-child(5):before{
   background-image:none !important;
@@ -340,7 +343,7 @@ padding: 8px 18px;
   height 100%;
 
 }
-.icon-circle ,
+.icon-circle,
 .tabs-menu .icon-circle,
 .page-detalle .icon-circle {
       border-radius: 90px;
@@ -426,3 +429,150 @@ width:100%;
     justify-content: flex-end;
 }
 
+.toolbar-detalle.bg-primary {
+    background-color: transparent !important;
+    color: #000 !important;
+}
+
+.page-detail .q-tab:before, .page-detail .q-tab.active:before {
+    content: '';
+    background-image: url(../assets/images/white/arrow.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 61%;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 83%;
+    top: 10px;
+    border-radius: 69%;
+}
+.page-detail .q-tabs-panes {
+    margin-top: 60px;
+}
+.page-detail .q-tabs-scroller{
+  border-bottom:1px solid #b2b2b2; }
+
+.page-detail .q-card {
+    background: #fff;
+    width: 100%;
+    margin: 10px 0;
+    color: #919096;
+    box-shadow: none !important;
+}
+.page-detail .q-card-title {
+    background: #eef2fa;
+    border-radius: 0.5rem;
+    text-align: center;
+    justify-content: center;
+    font-weight: 600;
+    margin:  0;
+    font-size: .9rem;
+}
+.page-detail .q-card::after {
+    content: '';
+    background-image: url(../assets/images/more.svg);
+    width: 100%;
+    position: relative;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: 75%;
+    background-position-x: center;
+    color: #c4c4c4;
+    font-size: 4rem;
+    text-align: center;
+    width: 48px;
+    height: 38px;
+    margin: 0 auto;
+}
+
+// css vista detalle
+.toolbar-menu.q-toolbar {
+   
+    justify-content: space-around !important;
+   background:#fff;
+}
+.toolbar-menu.bg-primary{
+background-color: #fff !important;
+padding: 0px 4px 15px;
+    border-bottom: 1px solid #c4c4c4;
+  
+}
+
+
+.icon-1 {
+  background-image: url(../assets/images/blue/1.svg);
+
+}
+.item-toolbar{
+     background-position: center;
+  background-repeat: no-repeat;
+  background-size: 61%;
+  width: 45px !important;
+  height: 45px !important;
+  background-color: #fff;
+  border: 1px solid #1d5593;
+  border-radius: 69%;
+  }
+.toolbar-menu.q-toolbar button:nth-child(1){
+    background-image: url(../assets/images/blue/1.svg);
+
+}
+
+.toolbar-menu.q-toolbar button:nth-child(1){
+    background-image: url(../assets/images/blue/1.svg);
+
+}
+
+
+.toolbar-menu.q-toolbar button:nth-child(2) {
+  background-image: url(../assets/images/blue/2.svg);
+
+}
+
+.toolbar-menu.q-toolbar button:nth-child(3) {
+  background-image: url(../assets/images/blue/3.svg);
+
+}
+
+.toolbar-menu.q-toolbar button:nth-child(4) {
+  background-image: url(../assets/images/blue/4.svg);
+
+}
+
+.toolbar-menu.q-toolbar button:nth-child(5) {
+  background-image: url(../assets/images/blue/5.svg);
+
+}
+.toolbar-menu.q-toolbar button::before{
+  content: '';
+    background-image: url(../assets/images/white/arrow.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    width: 20px;
+    height: 20px;
+    left: 100%;
+    top: 25%;
+    position: absolute;
+    border-radius: 69%;
+  }
+  .toolbar-menu.q-toolbar button:nth-child(5)::before{
+  content: '';
+    background-image: url(../assets/images/white/arrow.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    width: 0px;
+    height: 20px;
+    left: 100%;
+    top: 25%;
+    position: absolute;
+    border-radius: 69%;
+  }
+ .page-detail .q-card-container {
+    padding: 10px 16px;
+}
+.wrapper-card{
+padding: 0 1rem;
+}

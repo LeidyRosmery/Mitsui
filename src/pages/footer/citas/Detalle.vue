@@ -1,7 +1,7 @@
 <template>
-<div>
+<div class="page-detail">
 
-    <!-- <q-toolbar class="text-primary toolbar-detalle">
+   <q-toolbar class="text-primary toolbar-detalle">
    <div class="icon-circle">
                         <div class="icon-circle circle-3">
                             <div class="icon-circle circle-2">
@@ -13,77 +13,135 @@
         Toolbar
       </q-toolbar-title>
 
-    </q-toolbar> -->
+    </q-toolbar> 
+
+    <q-toolbar class="toolbar-menu" color="primary">
+
+  <q-btn flat round dense icon="" class="item-toolbar" />
+  <q-btn flat round dense icon="" class="item-toolbar" />
+  <q-btn flat round dense icon="" class="item-toolbar" />
+  <q-btn flat round dense icon="" class="item-toolbar" />
+  <q-btn flat round dense icon="" class="item-toolbar" />
+</q-toolbar>
    
-    <q-tabs class="pag_listado shadow-2 tabs-menu q-tabs flex no-wrap overflow-hidden q-tabs-position-top q-tabs-normal">
+    <!-- <q-tabs class="pag_listado shadow-2 tabs-menu q-tabs flex no-wrap overflow-hidden q-tabs-position-top q-tabs-normal">
         <q-tab default slot="title" name="tab-1" icon="icon-main icon-1"/>
         <q-tab slot="title" name="tab-2" icon="icon-main icon-2"/>
         <q-tab slot="title" name="tab-3" icon="icon-main icon-3"/>
         <q-tab slot="title" name="tab-4" icon="icon-main icon-4"/>
         <q-tab slot="title" name="tab-5" icon="icon-main icon-5" />
         <q-tab-pane name="tab-1">
-            <q-card inline class="q-ma-sm">
+       
+          
+        </q-tab-pane>
+
+    </q-tabs> -->
+         <q-card inline class="q-ma-sm">
                 <q-card-title>
-                    <div class="icon-circle">
-                        <div class="icon-circle circle-3">
-                            <div class="icon-circle circle-2">
-                                <div class="icon-circle circle-1"></div>
-                            </div>
-                        </div>
-                    </div> 1GNCS18Z3M0115561
+                    FACTURACIÓN
                     <!-- <span slot="subtitle">Subtitle</span> -->
                 </q-card-title>
                 <q-card-main>
-                    <div>
+                    <div class="wrapper-card">
                         <span class="text-card">Codigo asesor :</span> <span class="response-text">23980 - SOLO</span>
                     </div>
-                    <div>
+                    <div class="wrapper-card">
                         <span class="text-card">Asesor :</span><span class="response-text">Hilaria Solo Airoldi</span>
                     </div>
-                    <div>
+                    <div class="wrapper-card">
                         <span class="text-card">Num. Factura SUNAT : </span><span class="response-text">2389273 - A</span>
                     </div>
                 </q-card-main>
                 <!-- <q-card-separator /> -->
                 <q-card-actions>
-                    <!-- <q-btn flat>Action 1</q-btn>
-                                <q-btn flat>Action 2</q-btn> -->
-                    <span class="ver-mas">Ver detalle</span> <i class="icon-ver-mas fas fa-chevron-right"></i>
+             
                 </q-card-actions>
             </q-card>
-          
-        </q-tab-pane>
-        <q-tab-pane name="tab-2">
-            <q-card inline class="q-ma-sm">
-                <q-card-title> Title
-                    <!-- <span slot="subtitle">Subtitle</span> --></q-card-title>
+               <q-card inline class="q-ma-sm">
+                <q-card-title>
+                   TRAMITE PLACA Y TARJETA
+                    <!-- <span slot="subtitle">Subtitle</span> -->
+                </q-card-title>
                 <q-card-main>
-                    <p class="text-card">Ti-VCT GDI I-4 Engine</p>
-                    <p class="text-card">6- Speed PowerShift</p>
-                    <p class="text-card">Fecha y Hora : 24 . 05 . 2019</p>
+                    <div class="wrapper-card">
+                        <span class="text-card">Codigo asesor :</span> <span class="response-text">23980 - SOLO</span>
+                    </div>
+                    <div class="wrapper-card">
+                        <span class="text-card">Asesor :</span><span class="response-text">Hilaria Solo Airoldi</span>
+                    </div>
+                    <div class="wrapper-card">
+                        <span class="text-card">Num. Factura SUNAT : </span><span class="response-text">2389273 - A</span>
+                    </div>
                 </q-card-main>
                 <!-- <q-card-separator /> -->
                 <q-card-actions>
-                    <!-- <q-btn flat>Action 1</q-btn> <q-btn flat>Action 2</q-btn> --><span class="ver-mas">Ver detalle</span> <i class="icon-ver-mas fas fa-chevron-right"></i> </q-card-actions>
+             
+                </q-card-actions>
             </q-card>
-        </q-tab-pane>
-        <q-tab-pane name="tab-3">
-            <q-card inline class="q-ma-sm">
-                <q-card-title> Title
-                    <!-- <span slot="subtitle">Subtitle</span> --></q-card-title>
+               <q-card inline class="q-ma-sm">
+                <q-card-title>
+                   PROGRAMACIÓN Y ENTREGA
+                    <!-- <span slot="subtitle">Subtitle</span> -->
+                </q-card-title>
                 <q-card-main>
-                    <p class="text-card">Ti-VCT GDI I-4 Engine</p>
-                    <p class="text-card">6- Speed PowerShift</p>
-                    <p class="text-card">Fecha y Hora : 24 . 05 . 2019</p>
+                    <div class="wrapper-card">
+                        <span class="text-card">Codigo asesor :</span> <span class="response-text">23980 - SOLO</span>
+                    </div>
+                    <div class="wrapper-card">
+                        <span class="text-card">Asesor :</span><span class="response-text">Hilaria Solo Airoldi</span>
+                    </div>
+                    <div class="wrapper-card">
+                        <span class="text-card">Num. Factura SUNAT : </span><span class="response-text">2389273 - A</span>
+                    </div>
                 </q-card-main>
                 <!-- <q-card-separator /> -->
                 <q-card-actions>
-                    <!-- <q-btn flat>Action 1</q-btn>  <q-btn flat>Action 2</q-btn> --><span class="ver-mas">Ver detalle</span> <i class="icon-ver-mas fas fa-chevron-right"></i> </q-card-actions>
+             
+                </q-card-actions>
             </q-card>
-        </q-tab-pane>
-        <q-tab-pane name="tab-4">Tab cuatro</q-tab-pane>
-        <q-tab-pane name="tab-5">Tab Cinco</q-tab-pane>
-    </q-tabs>
+               <q-card inline class="q-ma-sm">
+                <q-card-title>
+                    LISTO PARA RECOJO
+                    <!-- <span slot="subtitle">Subtitle</span> -->
+                </q-card-title>
+                <q-card-main>
+                    <div class="wrapper-card">
+                        <span class="text-card">Codigo asesor :</span> <span class="response-text">23980 - SOLO</span>
+                    </div>
+                    <div class="wrapper-card">
+                        <span class="text-card">Asesor :</span><span class="response-text">Hilaria Solo Airoldi</span>
+                    </div>
+                    <div class="wrapper-card">
+                        <span class="text-card">Num. Factura SUNAT : </span><span class="response-text">2389273 - A</span>
+                    </div>
+                </q-card-main>
+                <!-- <q-card-separator /> -->
+                <q-card-actions>
+             
+                </q-card-actions>
+            </q-card>
+               <q-card inline class="q-ma-sm">
+                <q-card-title>
+                    ENTREGADO
+                    <!-- <span slot="subtitle">Subtitle</span> -->
+                </q-card-title>
+                <q-card-main>
+                    <div class="wrapper-card">
+                        <span class="text-card">Codigo asesor :</span> <span class="response-text">23980 - SOLO</span>
+                    </div>
+                    <div class="wrapper-card">
+                        <span class="text-card">Asesor :</span><span class="response-text">Hilaria Solo Airoldi</span>
+                    </div>
+                    <div class="wrapper-card">
+                        <span class="text-card">Num. Factura SUNAT : </span><span class="response-text">2389273 - A</span>
+                    </div>
+                </q-card-main>
+                <!-- <q-card-separator /> -->
+                <q-card-actions>
+             
+                </q-card-actions>
+            </q-card>
+              
     </div>
 </template>
 <script src="../../../js/detalle.js"/>
