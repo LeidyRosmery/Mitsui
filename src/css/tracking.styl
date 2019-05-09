@@ -514,13 +514,17 @@ padding: 0px 4px 15px;
   border: 1px solid #1d5593;
   border-radius: 69%;
   }
+  .active.item-toolbar{  
+  background-color: #1d5593;
+ 
+  }
+
 .toolbar-menu.q-toolbar button:nth-child(1){
     background-image: url(../assets/images/blue/1.svg);
 
 }
-
-.toolbar-menu.q-toolbar button:nth-child(1){
-    background-image: url(../assets/images/blue/1.svg);
+.toolbar-menu.q-toolbar button.active:nth-child(1){
+    background-image: url(../assets/images/white/1.svg);
 
 }
 
@@ -529,9 +533,18 @@ padding: 0px 4px 15px;
   background-image: url(../assets/images/blue/2.svg);
 
 }
+.toolbar-menu.q-toolbar button.active:nth-child(2) {
+  background-image: url(../assets/images/white/2.svg);
+
+}
 
 .toolbar-menu.q-toolbar button:nth-child(3) {
   background-image: url(../assets/images/blue/3.svg);
+
+}
+
+.toolbar-menu.q-toolbar button.active:nth-child(3) {
+  background-image: url(../assets/images/white/3.svg);
 
 }
 
@@ -539,9 +552,17 @@ padding: 0px 4px 15px;
   background-image: url(../assets/images/blue/4.svg);
 
 }
+.toolbar-menu.q-toolbar button.active:nth-child(4) {
+  background-image: url(../assets/images/white/4.svg);
+
+}
 
 .toolbar-menu.q-toolbar button:nth-child(5) {
   background-image: url(../assets/images/blue/5.svg);
+
+}
+.toolbar-menu.q-toolbar button.active:nth-child(5) {
+  background-image: url(../assets/images/white/5.svg);
 
 }
 .toolbar-menu.q-toolbar button::before{
@@ -571,8 +592,45 @@ padding: 0px 4px 15px;
     border-radius: 69%;
   }
  .page-detail .q-card-container {
-    padding: 10px 16px;
+     padding: 0px 16px;
 }
 .wrapper-card{
-padding: 0 1rem;
+    padding: 0 1rem;
+    margin: 12px 0;
+}
+.page-detail .wrapper-card.first-item>p{
+     color: #000;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: .9rem;
+  }
+  .title-item-card{
+    color: #919096;
+    margin-left: 6px;
+    font-weight: bold;
+  }
+   .page-detail .icon-item {
+    width: 20px;
+    height: 20px;
+}
+.title-item{
+margin-left:5px;
+}
+.item-black{
+  color:#000;}
+  .title-item.title-card-item{
+font-weight: bold;
+  }
+
+  .wrapper-toolbar {
+position: fixed;
+    width: 100%;
+    z-index: 3000;
+    background: #fff;
+}
+
+.wrapper-items {
+    top: 105px;
+    position: relative;
 }
