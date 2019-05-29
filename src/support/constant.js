@@ -24,5 +24,5 @@ export default
         hm_start     : 'Cargando Información ...',
         hm_element   : ['iId'],
         texto_calendario: 'Tiene reservada una cita para su vehiculo {{P_MODELO}} ({{P_PLACA}}) en el {{P_TALLER}}',
-        isPRD: true
+        isPRD: false
 }
