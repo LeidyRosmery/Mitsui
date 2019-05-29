@@ -12,17 +12,15 @@
     name: 'App',
     methods: {
       toogleClassActive: function(posicion) {
-            //      document.getElementsByClassName("item-toolbar")[index].classList.remove("active-scroll");
-            // document.getElementsByClassName("item-toolbar")[index].classList.remove("active");
+          
         for (var index = 0; index < 5; index++) {
           if (index === posicion) {
-            // document.getElementsByClassName("item-toolbar")[index].classList.add("active");
-              document.getElementsByClassName("item-toolbar")[index].classList.add("active-scroll");
-            console.log("ingrese");
+            document.getElementsByClassName("item-toolbar")[index].classList.add("active-scroll");
+        
           } else {
             document.getElementsByClassName("item-toolbar")[index].classList.remove("active-scroll");
             document.getElementsByClassName("item-toolbar")[index].classList.remove("active");
-            console.log("no ingrese");
+   
           }
         }
       },
